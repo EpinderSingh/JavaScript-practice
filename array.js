@@ -1,0 +1,18 @@
+let arr = ['Hello', 'Epinder'];
+console.log(arr);
+let arr1 = Array(1, 2, 3, 4, 5);
+console.log(arr1);
+let colors = ['red'];
+arr[1] = 'EPINDER';
+console.log(arr);
+let word = ['R', 'E', 'S', 'P', 'E', 'C', 'T'];
+console.log(word.join('-'));
+let num = [1, 2, 3, 4, 5, 6, 7];
+let otherNum = num;
+console.log(num);
+console.log(otherNum);
+num.push(100);
+console.log(otherNum);
+otherNum.shift();
+num.unshift(348);
+console.log(num);
