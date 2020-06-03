@@ -11,5 +11,5 @@ function passwordValidation(pass, user) {
   return true;
 }
 
-const valid = passwordValidation('Keerat 09', 'Epinder');
+const valid = passwordValidation('123456', 'Epinder');
 console.log(valid);
