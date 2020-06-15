@@ -43,7 +43,7 @@ const createAutoComplete = ({
       resultsWrapper.appendChild(option);
     }
   };
-  input.addEventListener('input', debounce(onInput, 500));
+  input.addEventListener('input', debounce(onInput, 1000));
 
   document.addEventListener('click', (event) => {
     if (!root.contains(event.target)) {
