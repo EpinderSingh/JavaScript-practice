@@ -52,11 +52,7 @@ for (let i = 0; i < 50; i++) {
   } else {
     World.add(
       world,
-      Bodies.circle(Math.random() * width, Math.random() * height, 35, {
-        render: {
-          fillStyle: 'purple',
-        },
-      }),
+      Bodies.circle(Math.random() * width, Math.random() * height, 35),
     );
   }
 }
